@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.cajaPadre {
+  width: 500px;
+  height: 600px;
+	position: relative;
+	margin: auto;
+    margin-top: 80px;
+}
+.hijo_1 {
+    width: 500px;
+    height: 500px;
+    background-color: rgba(171, 56, 140, 0.2);
+    position: absolute;
+
+    left: 20px;
+    top: -10px;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.hijo_2 {
+  width: 490px;
+  height: 500px;
+  background-color: #00A9AA;
+	position: absolute;
+    right: 50px;
+	top: 50px;
+}
+.hijo_2:hover{
+    background-color: darkorange;
+    transition: 2s;
+    
+}
+.hijo_3 {
+  width: 480px;
+  height: 75px;
+    background-color: rgba(0, 0, 0,0.6);
+  position: absolute;
+	top: 450px;
+	right: 20px;
+}
+.hijo_3:hover{
+    background-color: rgba(252, 250, 247,0.6);
+}
+h1{
+   color: white;
+  margin: 15px 0px 0px 50px;
+ font-family:cursive;
+}
+h1:hover{
+    color:black;
+}
